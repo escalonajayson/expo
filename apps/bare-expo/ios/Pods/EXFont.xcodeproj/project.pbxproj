@@ -7,63 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178F181BD7A153188112C0F2406263A2 /* EXFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3183B2DB076A68A593ED8F75BFF67 /* EXFontManager.m */; };
-		1C355C70167B30A8E8FFC167B0638356 /* EXFontLoaderProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E7515236918A46CD35800E2E87873D /* EXFontLoaderProcessor.m */; };
-		309815EB605985B80CD65B87DDCE7A5D /* EXFont.h in Headers */ = {isa = PBXBuildFile; fileRef = AFABE8643B57AA99712D8CE18D20401F /* EXFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6749F8243E92EA1DCD836ECA16C44D3A /* EXFontScalersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 266B3A9B39DD0CA979C21C293913B1B0 /* EXFontScalersManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81B0165DD9078F2F00A74A2090D8C9A4 /* EXFontLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE8AB130CD801036E484373C94D22D1 /* EXFontLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8DC356BA286FC7A4E402830DF8D4849B /* EXFontScaler.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E8B389A7AE35040ED991E593B20101 /* EXFontScaler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD9AFF830614E73AE243E98392827646 /* EXFontLoaderProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EDBE63186679E20E08104394DDD8D6 /* EXFontLoaderProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C169CB24FD0B556D845244A7A24E249F /* EXFontScalersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9C753480E9F719F63F22B5D874DA49 /* EXFontScalersManager.m */; };
-		CB348749F3EED9E66E812DE949203C69 /* EXFontLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE12716437C70EFDF745E202561CFB /* EXFontLoader.m */; };
-		EB0824948B6BF760FC84FB8E27BDDF1C /* EXFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647D30E3F7298DEE349F16C834DE999 /* EXFont-dummy.m */; };
-		F84DE7C0B43709C910FE91994ADA2258 /* EXFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A65C8719CFB3FAE99F4D6F0FD35E3C54 /* EXFontManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FCF50273E4097F7FAAD41BC74352C0B2 /* EXFontScaler.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FB77E5B00D7D504FCC637D8A66934A /* EXFontScaler.m */; };
-		FF92F50637D93441552C6D633A75F92B /* EXFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C3BECEF975AA3B6583B9855A7CEFED /* EXFont.m */; };
+		3B75CE52A937D40260459F449F8AC218 /* EXFontRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6135C60C59E241B0771B286883A07E63 /* EXFontRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45BC5563D3363E2D96E010EE9F1A765C /* EXFontManagerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5BB019B5373E264CD12AD2964EC3A1 /* EXFontManagerInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AFA8141F97E9844D5CBFC7F265ABBD7 /* EXFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1218EBAA2EB7A70964B17CB687C33 /* EXFont.m */; };
+		7EBEED7B74B66CA796A8B0AB7CB7A7AA /* EXFontScalersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81243C06ED09E2FE42A5E393954B9EEF /* EXFontScalersManager.m */; };
+		8CC13FC4D5F47F9CE62932BE731B8B5C /* EXFontLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = DB08609E88ED20D1F87BF3292D6A4229 /* EXFontLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A255FA6E5C47C90757980DF589EED9B5 /* EXFontScaler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBF498EEF95D3415A7B66EEA297565E /* EXFontScaler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE7360BFA271A8EE2FFB9D1FEEB7B50A /* EXFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3152A7FE9F994D431450F1AD7F47D0 /* EXFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1CB3BA114D961F770C9CBFE6D3DFC45 /* EXFontLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AFCD66F84991249F81205BD82A2A8 /* EXFontLoader.m */; };
+		BE5F6ADB4FE2EFDA2EF91FA29E495128 /* EXFontLoaderProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2963FF4F94C68AB7D5E2A5FC26723195 /* EXFontLoaderProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D570E00E8F5E90CCFB80BAC638F5D753 /* EXFontScalersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DA0C740AA64192456254470EC25ED7 /* EXFontScalersManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1813F6DB8241F5300492B38EE441C5B /* EXFontLoaderProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC183B77AE0961B927EE585019840A0 /* EXFontLoaderProcessor.m */; };
+		EB53396375FB902B8E8A799F93E399BF /* EXFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6B4738D4B91170DA816E84422CACF /* EXFont-dummy.m */; };
+		ED391CF4804A80F648A1628AA18776F1 /* EXFontScaler.m in Sources */ = {isa = PBXBuildFile; fileRef = BE73528D71FD1953685D43BCF221F0AB /* EXFontScaler.m */; };
+		EF6ADF75449629B76694D11783120334 /* EXFontProcessorInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC247D9831A5FC6C61149F20B68F7C8 /* EXFontProcessorInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F058A64A78B21F2BA81AE1AC0B077390 /* EXFontRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F9D64E041C221485DE71B0BC162879 /* EXFontRegistry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5506E1DA55E107D7C9FC0923559560D /* PBXContainerItemProxy */ = {
+		4CEF9553BBD1CF08700A9D680FCBCAF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 34704263A4A835CC7A8F6261B9436524 /* UMCore.xcodeproj */;
+			containerPortal = F9C0E060323338185212587E7DD0138F /* UMCore.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 153171642F5C5CBC05FD3EF6B23A3F36;
 			remoteInfo = UMCore;
 		};
-		FD3B70D6A16346F73745EA39246D3F86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86E23A4A3429B717FD66214D1F89693A /* UMFontInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F4112A673122B6D50845D9BC1D9AFDB;
-			remoteInfo = UMFontInterface;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		266B3A9B39DD0CA979C21C293913B1B0 /* EXFontScalersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXFontScalersManager.h; sourceTree = "<group>"; };
-		26C3BECEF975AA3B6583B9855A7CEFED /* EXFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFont.m; path = EXFont/EXFont.m; sourceTree = "<group>"; };
-		34704263A4A835CC7A8F6261B9436524 /* UMCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCore; path = UMCore.xcodeproj; sourceTree = "<group>"; };
-		3647D30E3F7298DEE349F16C834DE999 /* EXFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXFont-dummy.m"; sourceTree = "<group>"; };
-		45A112CA221AC6962CD5F9843D539122 /* EXFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E84C100D37700249688A793CF792CC6 /* EXFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXFont-prefix.pch"; sourceTree = "<group>"; };
+		2963FF4F94C68AB7D5E2A5FC26723195 /* EXFontLoaderProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontLoaderProcessor.h; path = EXFont/EXFontLoaderProcessor.h; sourceTree = "<group>"; };
+		3BF1218EBAA2EB7A70964B17CB687C33 /* EXFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFont.m; path = EXFont/EXFont.m; sourceTree = "<group>"; };
 		5487D66F5692F8C93459849E6B2D1725 /* libEXFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEXFont.a; path = libEXFont.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		54E7515236918A46CD35800E2E87873D /* EXFontLoaderProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontLoaderProcessor.m; path = EXFont/EXFontLoaderProcessor.m; sourceTree = "<group>"; };
-		6BB3183B2DB076A68A593ED8F75BFF67 /* EXFontManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontManager.m; path = EXFont/EXFontManager.m; sourceTree = "<group>"; };
-		70EDBE63186679E20E08104394DDD8D6 /* EXFontLoaderProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontLoaderProcessor.h; path = EXFont/EXFontLoaderProcessor.h; sourceTree = "<group>"; };
-		86E23A4A3429B717FD66214D1F89693A /* UMFontInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMFontInterface; path = UMFontInterface.xcodeproj; sourceTree = "<group>"; };
-		A65C8719CFB3FAE99F4D6F0FD35E3C54 /* EXFontManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontManager.h; path = EXFont/EXFontManager.h; sourceTree = "<group>"; };
-		AA9C753480E9F719F63F22B5D874DA49 /* EXFontScalersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXFontScalersManager.m; sourceTree = "<group>"; };
-		AFABE8643B57AA99712D8CE18D20401F /* EXFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFont.h; path = EXFont/EXFont.h; sourceTree = "<group>"; };
-		C35CE929D7E4A8A7B3E89941B4CE9FC8 /* EXFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXFont-prefix.pch"; sourceTree = "<group>"; };
-		C3FB77E5B00D7D504FCC637D8A66934A /* EXFontScaler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontScaler.m; path = EXFont/EXFontScaler.m; sourceTree = "<group>"; };
-		CAE8AB130CD801036E484373C94D22D1 /* EXFontLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontLoader.h; path = EXFont/EXFontLoader.h; sourceTree = "<group>"; };
-		D05E98484F38FCF5C28B2096847FFCDC /* EXFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXFont.debug.xcconfig; sourceTree = "<group>"; };
-		D4E8B389A7AE35040ED991E593B20101 /* EXFontScaler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontScaler.h; path = EXFont/EXFontScaler.h; sourceTree = "<group>"; };
-		E9CE12716437C70EFDF745E202561CFB /* EXFontLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontLoader.m; path = EXFont/EXFontLoader.m; sourceTree = "<group>"; };
-		FA0063E29D75DE6226A38C6D957FA810 /* EXFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXFont.release.xcconfig; sourceTree = "<group>"; };
+		59F9D64E041C221485DE71B0BC162879 /* EXFontRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontRegistry.m; path = EXFont/EXFontRegistry.m; sourceTree = "<group>"; };
+		5A92FBC08925DDF3F438ACC6BE921A20 /* EXFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DC247D9831A5FC6C61149F20B68F7C8 /* EXFontProcessorInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXFontProcessorInterface.h; sourceTree = "<group>"; };
+		5E3152A7FE9F994D431450F1AD7F47D0 /* EXFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFont.h; path = EXFont/EXFont.h; sourceTree = "<group>"; };
+		6135C60C59E241B0771B286883A07E63 /* EXFontRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontRegistry.h; path = EXFont/EXFontRegistry.h; sourceTree = "<group>"; };
+		6E4148BBDD0C3ADD10B234197434C340 /* EXFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXFont.release.xcconfig; sourceTree = "<group>"; };
+		81243C06ED09E2FE42A5E393954B9EEF /* EXFontScalersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXFontScalersManager.m; sourceTree = "<group>"; };
+		9FBF498EEF95D3415A7B66EEA297565E /* EXFontScaler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontScaler.h; path = EXFont/EXFontScaler.h; sourceTree = "<group>"; };
+		A30AFCD66F84991249F81205BD82A2A8 /* EXFontLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontLoader.m; path = EXFont/EXFontLoader.m; sourceTree = "<group>"; };
+		B0C6B4738D4B91170DA816E84422CACF /* EXFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXFont-dummy.m"; sourceTree = "<group>"; };
+		B0DA0C740AA64192456254470EC25ED7 /* EXFontScalersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXFontScalersManager.h; sourceTree = "<group>"; };
+		BE73528D71FD1953685D43BCF221F0AB /* EXFontScaler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontScaler.m; path = EXFont/EXFontScaler.m; sourceTree = "<group>"; };
+		CD5BB019B5373E264CD12AD2964EC3A1 /* EXFontManagerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXFontManagerInterface.h; sourceTree = "<group>"; };
+		CDC183B77AE0961B927EE585019840A0 /* EXFontLoaderProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXFontLoaderProcessor.m; path = EXFont/EXFontLoaderProcessor.m; sourceTree = "<group>"; };
+		DB08609E88ED20D1F87BF3292D6A4229 /* EXFontLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXFontLoader.h; path = EXFont/EXFontLoader.h; sourceTree = "<group>"; };
+		F1002BF4062E62D95E4BFF4DE8281D3B /* EXFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXFont.debug.xcconfig; sourceTree = "<group>"; };
+		F9C0E060323338185212587E7DD0138F /* UMCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCore; path = UMCore.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		540B493477ED54E910ED86CC4C541CA9 /* Frameworks */ = {
+		47DC235CD30C386709B9B467D0A066B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,13 +69,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D022955B16EBA0D47BE17625B87399F /* Dependencies */ = {
+		0A86DC3A6D6FCEA2BC1ABE72F63AF0A1 /* EXFont */ = {
 			isa = PBXGroup;
 			children = (
-				34704263A4A835CC7A8F6261B9436524 /* UMCore */,
-				86E23A4A3429B717FD66214D1F89693A /* UMFontInterface */,
+				5E3152A7FE9F994D431450F1AD7F47D0 /* EXFont.h */,
+				3BF1218EBAA2EB7A70964B17CB687C33 /* EXFont.m */,
+				DB08609E88ED20D1F87BF3292D6A4229 /* EXFontLoader.h */,
+				A30AFCD66F84991249F81205BD82A2A8 /* EXFontLoader.m */,
+				2963FF4F94C68AB7D5E2A5FC26723195 /* EXFontLoaderProcessor.h */,
+				CDC183B77AE0961B927EE585019840A0 /* EXFontLoaderProcessor.m */,
+				6135C60C59E241B0771B286883A07E63 /* EXFontRegistry.h */,
+				59F9D64E041C221485DE71B0BC162879 /* EXFontRegistry.m */,
+				9FBF498EEF95D3415A7B66EEA297565E /* EXFontScaler.h */,
+				BE73528D71FD1953685D43BCF221F0AB /* EXFontScaler.m */,
+				2E26C3EEFCA03AC7FE52A3B9DFF029D0 /* Pod */,
+				E8A215EEE718740CBC99A809B10A9876 /* Protocols */,
+				BCCBC81FC279A35156FF4E657544126D /* Singletons */,
+				531473ACB5E391303345FDEC25373DE0 /* Support Files */,
 			);
-			name = Dependencies;
+			name = EXFont;
+			path = "../../../../packages/expo-font/ios";
+			sourceTree = "<group>";
+		};
+		2E26C3EEFCA03AC7FE52A3B9DFF029D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5A92FBC08925DDF3F438ACC6BE921A20 /* EXFont.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		531473ACB5E391303345FDEC25373DE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C6B4738D4B91170DA816E84422CACF /* EXFont-dummy.m */,
+				1E84C100D37700249688A793CF792CC6 /* EXFont-prefix.pch */,
+				F1002BF4062E62D95E4BFF4DE8281D3B /* EXFont.debug.xcconfig */,
+				6E4148BBDD0C3ADD10B234197434C340 /* EXFont.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../apps/bare-expo/ios/Pods/Target Support Files/EXFont";
 			sourceTree = "<group>";
 		};
 		55122132D575417DBDB6F2157645A483 /* Frameworks */ = {
@@ -89,44 +118,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79205112D2A0405F626C4811E12255DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3647D30E3F7298DEE349F16C834DE999 /* EXFont-dummy.m */,
-				C35CE929D7E4A8A7B3E89941B4CE9FC8 /* EXFont-prefix.pch */,
-				D05E98484F38FCF5C28B2096847FFCDC /* EXFont.debug.xcconfig */,
-				FA0063E29D75DE6226A38C6D957FA810 /* EXFont.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../apps/bare-expo/ios/Pods/Target Support Files/EXFont";
-			sourceTree = "<group>";
-		};
-		79B0E158E053FC582E472F4BC364E855 /* Singletons */ = {
-			isa = PBXGroup;
-			children = (
-				266B3A9B39DD0CA979C21C293913B1B0 /* EXFontScalersManager.h */,
-				AA9C753480E9F719F63F22B5D874DA49 /* EXFontScalersManager.m */,
-			);
-			name = Singletons;
-			path = EXFont/Singletons;
-			sourceTree = "<group>";
-		};
 		B651D8117F9C774C7D63B495FBBF8826 = {
 			isa = PBXGroup;
 			children = (
-				1D022955B16EBA0D47BE17625B87399F /* Dependencies */,
-				F424905EDB452383B2B4948E24C1DA8B /* EXFont */,
+				C31AACFE1A48957DA67F6A8C5F5C9DED /* Dependencies */,
+				0A86DC3A6D6FCEA2BC1ABE72F63AF0A1 /* EXFont */,
 				55122132D575417DBDB6F2157645A483 /* Frameworks */,
 				C355B1D971F140B272C0D9CF04D1EE86 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BBECF8A80F4200859F8849E93EB4F9A5 /* Pod */ = {
+		BCCBC81FC279A35156FF4E657544126D /* Singletons */ = {
 			isa = PBXGroup;
 			children = (
-				45A112CA221AC6962CD5F9843D539122 /* EXFont.podspec */,
+				B0DA0C740AA64192456254470EC25ED7 /* EXFontScalersManager.h */,
+				81243C06ED09E2FE42A5E393954B9EEF /* EXFontScalersManager.m */,
 			);
-			name = Pod;
+			name = Singletons;
+			path = EXFont/Singletons;
+			sourceTree = "<group>";
+		};
+		C31AACFE1A48957DA67F6A8C5F5C9DED /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0E060323338185212587E7DD0138F /* UMCore */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
 		C355B1D971F140B272C0D9CF04D1EE86 /* Products */ = {
@@ -137,40 +154,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F424905EDB452383B2B4948E24C1DA8B /* EXFont */ = {
+		E8A215EEE718740CBC99A809B10A9876 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				AFABE8643B57AA99712D8CE18D20401F /* EXFont.h */,
-				26C3BECEF975AA3B6583B9855A7CEFED /* EXFont.m */,
-				CAE8AB130CD801036E484373C94D22D1 /* EXFontLoader.h */,
-				E9CE12716437C70EFDF745E202561CFB /* EXFontLoader.m */,
-				70EDBE63186679E20E08104394DDD8D6 /* EXFontLoaderProcessor.h */,
-				54E7515236918A46CD35800E2E87873D /* EXFontLoaderProcessor.m */,
-				A65C8719CFB3FAE99F4D6F0FD35E3C54 /* EXFontManager.h */,
-				6BB3183B2DB076A68A593ED8F75BFF67 /* EXFontManager.m */,
-				D4E8B389A7AE35040ED991E593B20101 /* EXFontScaler.h */,
-				C3FB77E5B00D7D504FCC637D8A66934A /* EXFontScaler.m */,
-				BBECF8A80F4200859F8849E93EB4F9A5 /* Pod */,
-				79B0E158E053FC582E472F4BC364E855 /* Singletons */,
-				79205112D2A0405F626C4811E12255DC /* Support Files */,
+				CD5BB019B5373E264CD12AD2964EC3A1 /* EXFontManagerInterface.h */,
+				5DC247D9831A5FC6C61149F20B68F7C8 /* EXFontProcessorInterface.h */,
 			);
-			name = EXFont;
-			path = "../../../../packages/expo-font/ios";
+			name = Protocols;
+			path = EXFont/Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A9A28D42A86224B395E46D976B8F1D3 /* Headers */ = {
+		1260A172B1040A6EEE95CED3578DBD9A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309815EB605985B80CD65B87DDCE7A5D /* EXFont.h in Headers */,
-				81B0165DD9078F2F00A74A2090D8C9A4 /* EXFontLoader.h in Headers */,
-				AD9AFF830614E73AE243E98392827646 /* EXFontLoaderProcessor.h in Headers */,
-				F84DE7C0B43709C910FE91994ADA2258 /* EXFontManager.h in Headers */,
-				8DC356BA286FC7A4E402830DF8D4849B /* EXFontScaler.h in Headers */,
-				6749F8243E92EA1DCD836ECA16C44D3A /* EXFontScalersManager.h in Headers */,
+				AE7360BFA271A8EE2FFB9D1FEEB7B50A /* EXFont.h in Headers */,
+				8CC13FC4D5F47F9CE62932BE731B8B5C /* EXFontLoader.h in Headers */,
+				BE5F6ADB4FE2EFDA2EF91FA29E495128 /* EXFontLoaderProcessor.h in Headers */,
+				45BC5563D3363E2D96E010EE9F1A765C /* EXFontManagerInterface.h in Headers */,
+				EF6ADF75449629B76694D11783120334 /* EXFontProcessorInterface.h in Headers */,
+				3B75CE52A937D40260459F449F8AC218 /* EXFontRegistry.h in Headers */,
+				A255FA6E5C47C90757980DF589EED9B5 /* EXFontScaler.h in Headers */,
+				D570E00E8F5E90CCFB80BAC638F5D753 /* EXFontScalersManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,17 +187,16 @@
 /* Begin PBXNativeTarget section */
 		0A4A001679E384FB337FF08C5D081399 /* EXFont */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F5A7F195C758AEA209715E89AB940DE /* Build configuration list for PBXNativeTarget "EXFont" */;
+			buildConfigurationList = 61F7A8FB4F3B785DA45F691A96055510 /* Build configuration list for PBXNativeTarget "EXFont" */;
 			buildPhases = (
-				0A9A28D42A86224B395E46D976B8F1D3 /* Headers */,
-				BAF2750A8DA2A5B20332990CFD0CCA67 /* Sources */,
-				540B493477ED54E910ED86CC4C541CA9 /* Frameworks */,
+				1260A172B1040A6EEE95CED3578DBD9A /* Headers */,
+				DC2A1F4B4D1ED6200AA45DAC43F4A982 /* Sources */,
+				47DC235CD30C386709B9B467D0A066B5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				11C5BCB23EB5C5052D5BA10A7A35B4DD /* PBXTargetDependency */,
-				7F57FD3A8DDC87B3843FC9C61A671049 /* PBXTargetDependency */,
+				AD6E8CDB7AA18EC0F8F9F0C50E719EBA /* PBXTargetDependency */,
 			);
 			name = EXFont;
 			productName = EXFont;
@@ -218,10 +225,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 34704263A4A835CC7A8F6261B9436524 /* UMCore */;
-				},
-				{
-					ProjectRef = 86E23A4A3429B717FD66214D1F89693A /* UMFontInterface */;
+					ProjectRef = F9C0E060323338185212587E7DD0138F /* UMCore */;
 				},
 			);
 			projectRoot = "";
@@ -232,36 +236,56 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BAF2750A8DA2A5B20332990CFD0CCA67 /* Sources */ = {
+		DC2A1F4B4D1ED6200AA45DAC43F4A982 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0824948B6BF760FC84FB8E27BDDF1C /* EXFont-dummy.m in Sources */,
-				FF92F50637D93441552C6D633A75F92B /* EXFont.m in Sources */,
-				CB348749F3EED9E66E812DE949203C69 /* EXFontLoader.m in Sources */,
-				1C355C70167B30A8E8FFC167B0638356 /* EXFontLoaderProcessor.m in Sources */,
-				178F181BD7A153188112C0F2406263A2 /* EXFontManager.m in Sources */,
-				FCF50273E4097F7FAAD41BC74352C0B2 /* EXFontScaler.m in Sources */,
-				C169CB24FD0B556D845244A7A24E249F /* EXFontScalersManager.m in Sources */,
+				EB53396375FB902B8E8A799F93E399BF /* EXFont-dummy.m in Sources */,
+				4AFA8141F97E9844D5CBFC7F265ABBD7 /* EXFont.m in Sources */,
+				B1CB3BA114D961F770C9CBFE6D3DFC45 /* EXFontLoader.m in Sources */,
+				E1813F6DB8241F5300492B38EE441C5B /* EXFontLoaderProcessor.m in Sources */,
+				F058A64A78B21F2BA81AE1AC0B077390 /* EXFontRegistry.m in Sources */,
+				ED391CF4804A80F648A1628AA18776F1 /* EXFontScaler.m in Sources */,
+				7EBEED7B74B66CA796A8B0AB7CB7A7AA /* EXFontScalersManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		11C5BCB23EB5C5052D5BA10A7A35B4DD /* PBXTargetDependency */ = {
+		AD6E8CDB7AA18EC0F8F9F0C50E719EBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UMCore;
-			targetProxy = B5506E1DA55E107D7C9FC0923559560D /* PBXContainerItemProxy */;
-		};
-		7F57FD3A8DDC87B3843FC9C61A671049 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMFontInterface;
-			targetProxy = FD3B70D6A16346F73745EA39246D3F86 /* PBXContainerItemProxy */;
+			targetProxy = 4CEF9553BBD1CF08700A9D680FCBCAF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0B1A374E3848A9ABF10594B5CC24173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1002BF4062E62D95E4BFF4DE8281D3B /* EXFont.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXFont/EXFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXFont;
+				PRODUCT_NAME = EXFont;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		517FCAAC2A0A784F17F54F4124F094E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -319,6 +343,32 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E936150A35D50C1C2EB43429DD39072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4148BBDD0C3ADD10B234197434C340 /* EXFont.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXFont/EXFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXFont;
+				PRODUCT_NAME = EXFont;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -386,57 +436,6 @@
 			};
 			name = Debug;
 		};
-		E8031A99746279FFAFC9F83E9CC3CAE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA0063E29D75DE6226A38C6D957FA810 /* EXFont.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXFont/EXFont-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXFont;
-				PRODUCT_NAME = EXFont;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EF622DD2285A48AC7030ADA5B1FE5139 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D05E98484F38FCF5C28B2096847FFCDC /* EXFont.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXFont/EXFont-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXFont;
-				PRODUCT_NAME = EXFont;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,11 +448,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F5A7F195C758AEA209715E89AB940DE /* Build configuration list for PBXNativeTarget "EXFont" */ = {
+		61F7A8FB4F3B785DA45F691A96055510 /* Build configuration list for PBXNativeTarget "EXFont" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF622DD2285A48AC7030ADA5B1FE5139 /* Debug */,
-				E8031A99746279FFAFC9F83E9CC3CAE5 /* Release */,
+				0B1A374E3848A9ABF10594B5CC24173C /* Debug */,
+				7E936150A35D50C1C2EB43429DD39072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -438,9 +438,9 @@ CACHE_KEYS:
   EXFont:
     BUILD_SETTINGS_CHECKSUM:
       EXFont:
-        :debug: d8920f123f0cdc804585bfcef1a86386
-        :release: d8920f123f0cdc804585bfcef1a86386
-    CHECKSUM: a6a4353271395f3bb4ee528b52a5035b4b0e412a
+        :debug: f9e0fe68d4846892da869216b1f6b9af
+        :release: f9e0fe68d4846892da869216b1f6b9af
+    CHECKSUM: 5ab537adcb2b21c24c8ad4d2712c19ee273c3823
     FILES:
       - "../../../../packages/expo-font/ios/EXFont/EXFont.h"
       - "../../../../packages/expo-font/ios/EXFont/EXFont.m"
@@ -448,10 +448,12 @@ CACHE_KEYS:
       - "../../../../packages/expo-font/ios/EXFont/EXFontLoader.m"
       - "../../../../packages/expo-font/ios/EXFont/EXFontLoaderProcessor.h"
       - "../../../../packages/expo-font/ios/EXFont/EXFontLoaderProcessor.m"
-      - "../../../../packages/expo-font/ios/EXFont/EXFontManager.h"
-      - "../../../../packages/expo-font/ios/EXFont/EXFontManager.m"
+      - "../../../../packages/expo-font/ios/EXFont/EXFontRegistry.h"
+      - "../../../../packages/expo-font/ios/EXFont/EXFontRegistry.m"
       - "../../../../packages/expo-font/ios/EXFont/EXFontScaler.h"
       - "../../../../packages/expo-font/ios/EXFont/EXFontScaler.m"
+      - "../../../../packages/expo-font/ios/EXFont/Protocols/EXFontManagerInterface.h"
+      - "../../../../packages/expo-font/ios/EXFont/Protocols/EXFontProcessorInterface.h"
       - "../../../../packages/expo-font/ios/EXFont/Singletons/EXFontScalersManager.h"
       - "../../../../packages/expo-font/ios/EXFont/Singletons/EXFontScalersManager.m"
     PROJECT_NAME: EXFont
@@ -2728,9 +2730,9 @@ CACHE_KEYS:
   UMReactNativeAdapter:
     BUILD_SETTINGS_CHECKSUM:
       UMReactNativeAdapter:
-        :debug: 671e6af9638e495e270f6054418ae6d0
-        :release: 671e6af9638e495e270f6054418ae6d0
-    CHECKSUM: 61ae88818058b7849bbf5b79bf97872cb3c8e0eb
+        :debug: 5d990af608594bacb58f8ebca3aa2220
+        :release: 5d990af608594bacb58f8ebca3aa2220
+    CHECKSUM: e70d6c9977f89d8a00ef3b665fe511acf5f84807
     FILES:
       - "../../../../packages/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/Services/UMReactFontManager.h"
       - "../../../../packages/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/Services/UMReactFontManager.m"

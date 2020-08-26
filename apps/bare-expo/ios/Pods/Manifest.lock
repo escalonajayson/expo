@@ -80,7 +80,6 @@ PODS:
     - UMCore
   - EXFont (8.3.0):
     - UMCore
-    - UMFontInterface
   - EXGL (9.1.1):
     - EXGL_CPP
     - UMCameraInterface
@@ -565,7 +564,6 @@ PODS:
   - UMReactNativeAdapter (5.6.0):
     - React-Core
     - UMCore
-    - UMFontInterface
   - UMSensorsInterface (5.3.0)
   - UMTaskManagerInterface (5.3.0)
   - Yoga (1.14.0)
@@ -978,7 +976,7 @@ SPEC CHECKSUMS:
   EXFileSystem: afe9b1fd937d30270bf5108ba44e2f4a1d1ad694
   EXFirebaseAnalytics: d76da8440905e04f94a3e3304f94f4966e730ad7
   EXFirebaseCore: d5befdb22015f9b71168ed89dda0b50dbb07fed1
-  EXFont: a6a4353271395f3bb4ee528b52a5035b4b0e412a
+  EXFont: 5ab537adcb2b21c24c8ad4d2712c19ee273c3823
   EXGL: 18197ce91dceb9acdc9b0a839919111ca004f434
   EXGL_CPP: 33f454aae7055477285982e9ce84dff19f83d458
   EXGL_CPP_LEGACY: 53e09fa405bf392e3d24b3c4fd62080f340a7429
@@ -1082,7 +1080,7 @@ SPEC CHECKSUMS:
   UMFontInterface: bc5dd878b2f6fffdac80e41fd36893c619683712
   UMImageLoaderInterface: 78ab0fd45c2bcaee61957fa23858bf31f2bcb122
   UMPermissionsInterface: 4f21b0c2aaf953cf041109ff44231b2a69e22836
-  UMReactNativeAdapter: 61ae88818058b7849bbf5b79bf97872cb3c8e0eb
+  UMReactNativeAdapter: e70d6c9977f89d8a00ef3b665fe511acf5f84807
   UMSensorsInterface: 49bea41dcfcc041f0bbab27cfe4a6006f1dde0c0
   UMTaskManagerInterface: 6cad5929dbc0a5b986ad4d77caac497d4de730a7
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
