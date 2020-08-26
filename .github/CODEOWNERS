@@ -89,7 +89,6 @@
 /packages/unimodules-constants-interface        @tsapeta @bbarthec
 /packages/unimodules-face-detector-interface    @sjchmiela
 /packages/unimodules-file-system-interface      @sjchmiela @bbarthec
-/packages/unimodules-font-interface             @sjchmiela
 /packages/unimodules-image-loader-interface     @bbarthec @tsapeta
 /packages/unimodules-permissions-interface      @bbarthec @lukmccall
 /packages/unimodules-sensors-interface          @sjchmiela @mczernek
