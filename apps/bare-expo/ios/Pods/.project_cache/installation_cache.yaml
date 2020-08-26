@@ -1230,8 +1230,8 @@ CACHE_KEYS:
       - nanopb/encode (0.3.9011)
   Pods-BareExpo:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 2376812207103a5cb27166faed1e7156
-      Release: 2376812207103a5cb27166faed1e7156
+      Debug: 4629ae3b4581fd5fd2f2e45252959fe8
+      Release: 4629ae3b4581fd5fd2f2e45252959fe8
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/EXDevMenu/EXDevMenu.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle"
@@ -1240,8 +1240,8 @@ CACHE_KEYS:
       - "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
   Pods-BareExpoTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 7b3d396c9e7e40fcd86b4c7f7061e278
-      Release: 7b3d396c9e7e40fcd86b4c7f7061e278
+      Debug: ec3c03d833bbb2c40de0fcd8bf39b580
+      Release: ec3c03d833bbb2c40de0fcd8bf39b580
   PromisesObjC:
     BUILD_SETTINGS_CHECKSUM:
       PromisesObjC:
@@ -2688,20 +2688,6 @@ CACHE_KEYS:
     PROJECT_NAME: UMFileSystemInterface
     SPECS:
       - UMFileSystemInterface (5.3.0)
-  UMFontInterface:
-    BUILD_SETTINGS_CHECKSUM:
-      UMFontInterface:
-        :debug: 02cb9ef9adc4d52db44a7a35411f1c57
-        :release: 02cb9ef9adc4d52db44a7a35411f1c57
-    CHECKSUM: bc5dd878b2f6fffdac80e41fd36893c619683712
-    FILES:
-      - "../../../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontManagerInterface.h"
-      - "../../../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontProcessorInterface.h"
-      - "../../../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontScalerInterface.h"
-      - "../../../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontScalersManagerInterface.h"
-    PROJECT_NAME: UMFontInterface
-    SPECS:
-      - UMFontInterface (5.3.0)
   UMImageLoaderInterface:
     BUILD_SETTINGS_CHECKSUM:
       UMImageLoaderInterface:

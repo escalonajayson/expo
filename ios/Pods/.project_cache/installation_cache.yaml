@@ -8962,8 +8962,8 @@ CACHE_KEYS:
       - nanopb/encode (0.3.9011)
   Pods-Exponent:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: ca088870eac8671cb8cb890dea5e5662
-      Release: ca088870eac8671cb8cb890dea5e5662
+      Debug: e63df16b062d502e4b29d153e0b4b191
+      Release: e63df16b062d502e4b29d153e0b4b191
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMLVisionFaceModel/GoogleMVFaceDetectorResources.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle"
@@ -8973,12 +8973,12 @@ CACHE_KEYS:
       - "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
   Pods-ExponentIntegrationTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: f02ff9ead2090d1addc00fee7339115e
-      Release: f02ff9ead2090d1addc00fee7339115e
+      Debug: 670d0844a0a172d2b02a5159013308f1
+      Release: 670d0844a0a172d2b02a5159013308f1
   Pods-Tests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: f02ff9ead2090d1addc00fee7339115e
-      Release: f02ff9ead2090d1addc00fee7339115e
+      Debug: 670d0844a0a172d2b02a5159013308f1
+      Release: 670d0844a0a172d2b02a5159013308f1
   Protobuf:
     BUILD_SETTINGS_CHECKSUM:
       Protobuf:
@@ -9906,20 +9906,6 @@ CACHE_KEYS:
     PROJECT_NAME: UMFileSystemInterface
     SPECS:
       - UMFileSystemInterface (5.3.0)
-  UMFontInterface:
-    BUILD_SETTINGS_CHECKSUM:
-      UMFontInterface:
-        :debug: 84a2b07037eabf601b53258944dd11cb
-        :release: 84a2b07037eabf601b53258944dd11cb
-    CHECKSUM: bc5dd878b2f6fffdac80e41fd36893c619683712
-    FILES:
-      - "../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontManagerInterface.h"
-      - "../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontProcessorInterface.h"
-      - "../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontScalerInterface.h"
-      - "../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontScalersManagerInterface.h"
-    PROJECT_NAME: UMFontInterface
-    SPECS:
-      - UMFontInterface (5.3.0)
   UMImageLoaderInterface:
     BUILD_SETTINGS_CHECKSUM:
       UMImageLoaderInterface:
