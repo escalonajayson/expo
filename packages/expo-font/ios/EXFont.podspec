@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'EXFont/**/*.{h,m}'
   s.requires_arc   = true
 
+  s.dependency 'React'
   s.dependency 'UMCore'
 
 end
