@@ -1606,6 +1606,7 @@ PODS:
     - Firebase/Core (= 6.14.0)
     - UMCore
   - EXFont (8.3.0):
+    - React
     - UMCore
   - EXGL (9.1.1):
     - EXGL_CPP
@@ -3673,7 +3674,7 @@ SPEC CHECKSUMS:
   EXFileSystem: afe9b1fd937d30270bf5108ba44e2f4a1d1ad694
   EXFirebaseAnalytics: d76da8440905e04f94a3e3304f94f4966e730ad7
   EXFirebaseCore: d5befdb22015f9b71168ed89dda0b50dbb07fed1
-  EXFont: 5ab537adcb2b21c24c8ad4d2712c19ee273c3823
+  EXFont: 09aafcd43e7e39009fd2582a274fa182a95b6161
   EXGL: 18197ce91dceb9acdc9b0a839919111ca004f434
   EXGL_CPP: 33f454aae7055477285982e9ce84dff19f83d458
   EXGL_CPP_LEGACY: 53e09fa405bf392e3d24b3c4fd62080f340a7429
